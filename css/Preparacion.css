@@ -1,0 +1,14 @@
+.imagen-preparacion{
+    position: relative;
+    top: 100px;
+    width: 600px;
+}
+
+.texto{
+    position: relative;
+    top: 100px;
+}
+
+.preparacion{
+    height: 600px;
+}

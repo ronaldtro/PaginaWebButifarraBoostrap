@@ -1,0 +1,269 @@
+h1 {
+    font-family: 'Lexend Mega', sans-serif;
+  }
+  a {
+    text-decoration: none;
+  }
+  .header {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 90vh;
+    min-height: 400px;
+    max-height: 700px;
+    min-width: 300px;
+    color: #eee;
+  }
+  .header:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.12) 40%,
+      rgba(27, 32, 48, 1) 100%
+    );
+  }
+  .header:before {
+    content: "";
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    scale: (1, 1);
+    transform: translateZ(0);
+    background: #1b2030
+      url(https://images.unsplash.com/photo-1514513255262-76c2200e709e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)
+      50% 0 no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    animation: grow 30s linear 5ms infinite;
+    transition: all 0.2s ease-in-out;
+    z-index: -2;
+  }
+  .header a {
+    color: #eee;
+  }
+  
+  .info {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .info {
+    width: 100%;
+    padding: 15% 10% 0 10%;
+    text-align: center;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  .author {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: url("../Imagenes/AbrahamDos.jpg") center no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    margin-bottom: 3px;
+  }
+  .info h4,
+  .meta {
+    font-size: 0.7em;
+    font-style: italic;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  @keyframes grow {
+    0% {
+      transform: scale(1) translateY(0px);
+    }
+    50% {
+      transform: scale(1.2) translateY(-200px);
+    }
+  }
+  
+  @media screen and (max-widht:800px){
+    .header {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 30vh;
+    min-height: 260px;
+    max-height: 460px;
+    min-width: 200px;
+    color: #eee;
+  }
+  .header:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  
+  }
+  .header:before {
+    content: "";
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    scale: (1, 1);
+    transform: translateZ(0);
+    background: #1b2030
+      url(https://images.unsplash.com/photo-1530166906126-2235e533180a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=805&q=80)
+      50% 0 no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    animation: grow 90s linear 5ms infinite;
+    transition: all 0.2s ease-in-out;
+    z-index: -2;
+  }
+  .header a {
+    color: #eee;
+  }
+  
+  .info {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .info {
+    width: 100%;
+    padding: 15% 10% 0 10%;
+    text-align: center;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  .author {
+    display: inline-block;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    background: url("../Imagenes/AbrahamDos.jpg") center no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    margin-bottom: 3px;
+  }
+  .info h4,
+  .meta {
+    font-size: 0.4em;
+    font-style: italic;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scale(1) translateY(0px);
+    }
+    50% {
+      transform: scale(1.2) translateY(-130px);
+    }
+  }
+  
+  }
+  
+  @media screen and (max-width: 500px){
+    .header {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 17vh;
+    min-height: 163px;
+    max-height: 287px;
+    min-width: 125px;
+    color: #eee;
+  }
+  .header:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  
+  }
+  .header:before {
+    content: "";
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    scale: (1, 1);
+    transform: translateZ(0);
+    background: #1b2030
+      url(https://images.unsplash.com/photo-1530166906126-2235e533180a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=805&q=80)
+      50% 0 no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    animation: grow 30s linear 5ms infinite;
+    transition: all 0.2s ease-in-out;
+    z-index: -2;
+  }
+  .header a {
+    color: #eee;
+  }
+  
+  .info {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .info {
+    width: 100%;
+    padding: 15% 10% 0 10%;
+    text-align: center;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  .author {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: url("../Imagenes/AbrahamDos.jpg") center no-repeat;
+    background-size: cover;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    margin-bottom: 3px;
+  }
+  .info h4,
+  .meta {
+    font-size: 0.25em;
+    font-style: italic;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scale(1) translateY(0px);
+    }
+    50% {
+      transform: scale(1.2) translateY(-82px);
+    }
+  }
+    
+  }

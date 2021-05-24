@@ -1,0 +1,37 @@
+
+header{
+    background: url(../imagenes/logo2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+}
+
+.card{
+    margin: 0 auto;
+}
+
+
+.card-body{
+    background-color: rgb(214, 205, 205);
+    text-align: center;
+}
+
+.card-body h5{
+    margin-bottom: 12px;
+}
+
+.card-body a{
+    color: black;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+nav a{
+    color: black;
+}

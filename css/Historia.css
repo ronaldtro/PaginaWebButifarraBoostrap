@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
+
+.titulo {
+  margin-bottom: 30px;
+  padding: 10px;
+  margin: 30px;
+  font-weight: 500;
+  font-family: "Stardos Stencil", cursive;
+  color: #000;
+}
+
+.parrafo {
+  margin: 3px;
+  padding: 5px;
+  color: #000001;
+  font-family: "Delius Swash Caps", cursive;
+  font-size: 15px;
+}
+
+.imagenUno {
+  position: relative;
+  top: 168px;
+}
+
+.imagenUno:hover {
+  border-bottom: 5px solid transparent;
+  box-shadow: 3px 3px 30px 0 rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav::before{
+  content: "";
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+.img-navbar {
+  margin-left: 30px;
+  width: 60px;
+}
+
+.nav {
+  border-bottom: 1px solid transparent;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Bitter", serif;
+  font-size: 25px;
+}
+
+a:hover {
+  color: rgba(255, 0, 0, 0.63);
+}
